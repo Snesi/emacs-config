@@ -1,0 +1,35 @@
+
+;; ----- smex-history -----
+(
+ package-refresh-contents
+ delete-whitespace-rectangle
+ indent-region
+ find-file
+ package-install
+ list-processes
+ package-list-packages
+)
+
+;; ----- smex-data -----
+(
+ (save-buffer . 1)
+ (undo . 1)
+ (repeat . 1)
+ (package-list-packages . 4)
+ (package-refresh-contents . 4)
+ (replace-string . 1)
+ (package-install . 5)
+ (cider-jack-in . 2)
+ (package-show-package-list . 1)
+ (dframe-close-frame . 1)
+ (package-autoremove . 1)
+ (ido-ubiquitous-update-overrides . 2)
+ (eval-region . 1)
+ (elpy-config . 1)
+ (term-terminal-menu . 1)
+ (list-processes . 1)
+ (elpy-find-file . 2)
+ (find-file . 4)
+ (indent-region . 1)
+ (delete-whitespace-rectangle . 1)
+)
