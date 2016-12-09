@@ -149,7 +149,7 @@
  '(coffee-tab-width 2)
  '(custom-safe-themes
    (quote
-    ("9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
+    ("7f1263c969f04a8e58f9441f4ba4d7fb1302243355cb9faecb55aec878a06ee9" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
  '(package-selected-packages
    (quote
     (js2-mode web-mode tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
@@ -160,7 +160,7 @@
  ;; If there is more than one, they won't work right.
  )
 
-(load-theme 'zenburn)
+(load-theme 'wombat)
 
 (global-set-key (kbd "M-1") "|")
 (global-set-key (kbd "M-2") "@")
@@ -171,6 +171,8 @@
 (global-set-key (kbd "M-ñ") "~")
 
 (global-set-key (kbd "s-e") 'ibuffer)
+
+(setq-default line-spacing 4)
 
 ;; Webmode config
 (require 'web-mode)
