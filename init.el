@@ -152,7 +152,7 @@
     ("7f1263c969f04a8e58f9441f4ba4d7fb1302243355cb9faecb55aec878a06ee9" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
  '(package-selected-packages
    (quote
-    (js2-mode web-mode tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
+    (auto-complete js2-mode web-mode tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -170,10 +170,14 @@
 (global-set-key (kbd "M-+") "]")
 (global-set-key (kbd "M-ñ") "~")
 
+;; cmd+e to open ibuffer, kind of like recent files
 (global-set-key (kbd "s-e") 'ibuffer)
 
+;; Set line height
 (setq-default line-spacing 4)
 
+;; Init autocomplete config
+(ac-config-default)
 ;; Webmode config
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
@@ -194,5 +198,6 @@
 (setq web-mode-code-indent-offset 4)
 
 (require 'projectile)
+;; Set cmd+p to work kind of like in sublime
 (define-key projectile-mode-map [?\s-p] 'projectile-find-file)
 (define-key projectile-mode-map [?\s-r] 'projectile-grep)
