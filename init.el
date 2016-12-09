@@ -170,6 +170,8 @@
 (global-set-key (kbd "M-+") "]")
 (global-set-key (kbd "M-ñ") "~")
 
+(global-set-key (kbd "s-e") 'ibuffer)
+
 ;; Webmode config
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
