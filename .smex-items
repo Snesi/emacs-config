@@ -1,11 +1,11 @@
 
 ;; ----- smex-history -----
 (
+ package-install
  package-refresh-contents
  delete-whitespace-rectangle
  indent-region
  find-file
- package-install
  list-processes
  package-list-packages
 )
@@ -18,7 +18,7 @@
  (package-list-packages . 4)
  (package-refresh-contents . 4)
  (replace-string . 1)
- (package-install . 5)
+ (package-install . 6)
  (cider-jack-in . 2)
  (package-show-package-list . 1)
  (dframe-close-frame . 1)

@@ -1,0 +1,35 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/david/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/david/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "README.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/david/.emacs.d/themes/" (22574 65191 0 0) "zenburn-theme.el" "tomorrow-theme.el" "tomorrow-night-theme.el" "tomorrow-night-eighties-theme.el" "tomorrow-night-bright-theme.el" "tomorrow-night-blue-theme.el" "color-theme-tomorrow.el" "../" "./")
+
+ ("/Users/david/.emacs.d/" (22602 28331 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".git/" "../" "./")
+
+ ("/Users/" (22523 48858 0 0) "Shared/" "Guest/" "david/" ".localized" "../" "./")
+
+ ("/Users/david/" (22602 27301 0 0) "VPN/" "virtualenv-python2.7.10/" "VirtualBox VMs/" "Vagrant/" "unicorn_wallpaper_by_pinkloveeditions-d6ilgki.jpg" "Snapshots/" "Screen Shot 2016-04-14 at 14.44.23.png" "PycharmProjects/" "Public/" "projects/" "Pictures/" "NetBeansProjects/" "Music/" "Movies/" "mongod.conf" "Library/" "idontknowwhatthisis/" "Google Drive/" "git-completion.bash" "emacs.notes" "emacs-for-clojure-book1/" "Downloads/" "Documents/" "Desktop/" "credentials.csv" "book1.zip" "bin/" "Applications/" "AndroidStudioProjects/" ".yjp/" ".yarn-cache/" ".yarn/" ".wget-hsts" ".vscode/" ".viminfo" ".vim_mru_files" ".vagrant.d/" ".v8flags.5.1.281.83.david.json" ".Trash/" ".subversion/" ".strongloop/" ".ssh/" ".sqlite_history" ".screenrc" ".python_history" ".pylint.d/" ".PyCharm50/" ".oracle_jre_usage/" ".opam/" ".ocamlinit" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".lein/" ".iterm2_shell_integration.bash" ".iterm2/" ".idlerc/" ".hyperterm_plugins/" ".hyperterm.js" ".httpie/" ".hgignore_global" ".gradle/" ".godot/" ".gnupg/" ".gitkraken/" ".gitignore_global" ".gitconfig" ".ghc/" ".emacs.d/" ".elm/" ".DS_Store" ".dotnet/" ".docker/" ".cups/" ".config/" ".composer/" ".CFUserTextEncoding" ".cache/" ".bashrc.getfinancing" ".bashrc" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".babel.json" ".aws/" ".atom/" ".aspnet/" ".android/" "../" "./")
+
+ ("/Users/david/Vagrant/" (22453 20516 0 0) "pythonDev/" "magento-box/" "hacker/" ".DS_Store" "../" "./")
+
+ ("/Users/david/Vagrant/pythonDev/" (22565 61896 0 0) "Vagrantfile" "id_rsa.pub" "id_rsa" ".vagrant/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

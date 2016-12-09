@@ -10,7 +10,10 @@
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
-
+(add-to-list 'package-archives
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)   
+(add-to-list 'package-pinned-packages 
+             '(cider . "melpa-stable") t)
 ;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 ;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
 ;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
@@ -138,3 +141,46 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(custom-safe-themes
+   (quote
+    ("9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
+ '(package-selected-packages
+   (quote
+    (js2-mode web-mode tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+(load-theme 'zenburn)
+
+;; Webmode config
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+(setq web-mode-content-types-alist
+  '(("django" . "/Users/david/projects/getfinancing/partner/.*\\.html\\'")))
+
+(setq web-mode-markup-indent-offset 4)
+(setq web-mode-css-indent-offset 2)
+(setq web-mode-code-indent-offset 4)
+
+(require 'projectile)
+(define-key projectile-mode-map [?\s-p] 'projectile-find-file)
+(define-key projectile-mode-map [?\s-r] 'projectile-grep)
