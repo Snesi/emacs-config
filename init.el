@@ -152,7 +152,7 @@
     ("7f1263c969f04a8e58f9441f4ba4d7fb1302243355cb9faecb55aec878a06ee9" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
  '(package-selected-packages
    (quote
-    (emmet-mode auto-complete js2-mode web-mode tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
+    (neotree emmet-mode auto-complete web-mode tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -186,21 +186,25 @@
 ;; Webmode config
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist 'ode)
 (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
-
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+(add-to-list 'auto-mode-alist '("\\.el\\'" . emacs-lisp-mode))
+
+(add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . web-mode))
 
 (setq web-mode-content-types-alist
   '(("django" . "/Users/david/projects/getfinancing/partner/.*\\.html\\'")))
 
+(setq web-mode-content-types-alist ' (("jsx" . "\\.js[x]?\\'")))
+
 (setq web-mode-markup-indent-offset 4)
 (setq web-mode-css-indent-offset 2)
-(setq web-mode-code-indent-offset 4)
+(setq web-mode-code-indent-offset 2)
 
 (require 'projectile)
 ;; Set cmd+p to work kind of like in sublime
