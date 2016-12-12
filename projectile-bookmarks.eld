@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/projects/getfinancing/partner/")
+("~/.emacs.d/" "~/projects/getfinancing/partner/" "~/projects/freelance/trustbid-react/")

@@ -2,22 +2,31 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/david/projects/" . "freelance/")
  ("/Users/david/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/david/projects/freelance/"
  "/Users/david/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "budget_trustbid.md"
  "init.el"
  "README.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/david/projects/" (22602 55203 0 0) "webpackTutorial/" "tempoe_payment/" "tempoe/" "sps_request_list_processed.txt" "snesi/" "pagamastarde/" "mirrors/" "june_2016" "getfinancing/" "freelance/" "demos/" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/david/projects/freelance/" (22602 56554 0 0) "trustbid-react/" "../" "./")
+
+ ("/Users/david/projects/freelance/trustbid-react/" (22602 56557 0 0) "roadmap.md" ".git/" "../" "./")
+
  ("/Users/david/.emacs.d/themes/" (22574 65191 0 0) "zenburn-theme.el" "tomorrow-theme.el" "tomorrow-night-theme.el" "tomorrow-night-eighties-theme.el" "tomorrow-night-bright-theme.el" "tomorrow-night-blue-theme.el" "color-theme-tomorrow.el" "../" "./")
 
  ("/Users/david/.emacs.d/" (22602 28331 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".git/" "../" "./")

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- package-install
- package-refresh-contents
- delete-whitespace-rectangle
- indent-region
- find-file
- list-processes
+ package-autoremove
  package-list-packages
+ package-delete
+ markdown
+ calculator
+ markdown-mode
+ package-install
 )
 
 ;; ----- smex-data -----
@@ -15,14 +15,14 @@
  (save-buffer . 1)
  (undo . 1)
  (repeat . 1)
- (package-list-packages . 4)
+ (package-list-packages . 5)
  (package-refresh-contents . 4)
  (replace-string . 1)
- (package-install . 6)
+ (package-install . 7)
  (cider-jack-in . 2)
  (package-show-package-list . 1)
  (dframe-close-frame . 1)
- (package-autoremove . 1)
+ (package-autoremove . 2)
  (ido-ubiquitous-update-overrides . 2)
  (eval-region . 1)
  (elpy-config . 1)
@@ -32,4 +32,8 @@
  (find-file . 4)
  (indent-region . 1)
  (delete-whitespace-rectangle . 1)
+ (markdown-mode . 2)
+ (calculator . 1)
+ (markdown . 1)
+ (package-delete . 2)
 )
