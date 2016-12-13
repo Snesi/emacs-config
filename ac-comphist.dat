@@ -1,4 +1,12 @@
-((("emacs-lisp-mode" .
+((("kbd" .
+   [1 0 0])
+  ("global-set-key" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("end-of-line" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("beginning-of-line" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("emacs-lisp-mode" .
    [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
   ("auto-mode-alist" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])

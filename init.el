@@ -170,18 +170,17 @@
 (global-set-key (kbd "M-+") "]")
 (global-set-key (kbd "M-ñ") "~")
 
-;; cmd+e to open ibuffer, kind of like recent files
-(global-set-key (kbd "s-e") 'ibuffer)
+
+(global-set-key (kbd "s-e") 'ibuffer) ;; cmd+e to open ibuffer, kind of like recent files
+(global-set-key (kbd "s-<left>") 'beginning-of-line) ;; cmd+left beginning of line
+(global-set-key (kbd "s-<right>") 'end-of-line) ;; cmd+right end of line
+(global-set-key (kbd "s-1")  'neotree-toggle)
 
 ;; Set line height
 (setq-default line-spacing 4)
 
 ;; Init autocomplete config
 (ac-config-default)
-
-
-(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
-(add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation
 
 ;; Webmode config
 (require 'web-mode)
@@ -206,7 +205,17 @@
 (setq web-mode-css-indent-offset 2)
 (setq web-mode-code-indent-offset 2)
 
+;; emmet config
+(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+(add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation
+(add-hook 'web-mode-hook  'emmet-mode) ;; autostart emmet in web-mode
+(setq emmet-expand-jsx-className? t) ;; add className instead of class when in jsx
+
+
 (require 'projectile)
 ;; Set cmd+p to work kind of like in sublime
 (define-key projectile-mode-map [?\s-p] 'projectile-find-file)
 (define-key projectile-mode-map [?\s-r] 'projectile-grep)
+
+(setq neo-smart-open t)
+(setq projectile-switch-project-action 'neotree-projectile-action)
