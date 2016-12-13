@@ -1,0 +1,44 @@
+M-x --> run emacs command! (Extremely useful)
+
+C-spc --> Set mark (used for creating a region to do operations)
+
+C-w	Kill region.
+M-w	Copy region to kill ring.
+C-y	Yank.
+M-y	Cycle through kill ring after yanking.
+M-d	Kill word.
+C-k	Kill line.
+
+C-x b --> open buffer or create new buffer
+C-x C-f --> Open file or create new file (it opens a buffer with the file name)
+C-x u or C-_ --> Undo changes
+C-g --> Cancels command
+C-g C-_ --> redo
+M-f --> forward one word 
+M-b --> backward one word
+
+C-x C-s --> Saves changes cmd+s also works because of the config downloaded
+
+C-x o q --> Close help window
+
+C-a	Move to beginning of line.a
+M-m	Move to first non-whitespace character on the line.
+C-e	Move to end of line.
+C-f	Move forward one character.
+C-b	Move backward one character.
+M-f	Move forward one word (I use this a lot).
+M-b	Move backward one word (I use this a lot, too).
+C-s	Regex search for text in current buffer and move to it. Press C-s again to move to next match.
+C-r	Same as C-s, but search in reverse.
+M-<	Move to beginning of buffer.
+M->	Move to en of buffer.
+M-g g	Go to line
+
+C-x o	Switch cursor to another window. Try this now to switch between your Clojure file and the REPL.
+C-x 1	Delete all other windows, leaving only the current window in the frame. This doesn’t close your buffers, and it won’t cause you to lose any work.
+C-x 2	Split frame above and below.
+C-x 3	Split frame side by side.
+C-x 0	Delete current window.
+
+CLOJURE MAJOR MODE
+C-x C-e --> Eval line (needs to be at the end of the line)
