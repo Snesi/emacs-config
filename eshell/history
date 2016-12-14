@@ -4,3 +4,15 @@ cd
 pwd
 ll
 ls
+cd
+cd .emacs.d/
+git status
+git add .
+git commit -m "Added a few more mac keymaps for navigating code and autostart emmet mode in web-mode"
+git push
+cd ..
+ll
+cd ..
+ls
+cd app/
+npm start

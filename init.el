@@ -175,6 +175,9 @@
 (global-set-key (kbd "s-<left>") 'beginning-of-line) ;; cmd+left beginning of line
 (global-set-key (kbd "s-<right>") 'end-of-line) ;; cmd+right end of line
 (global-set-key (kbd "s-1")  'neotree-toggle)
+(global-set-key (kbd "s-7")  'comment-region)
+(global-set-key (kbd "s-<up>")  'beginning-of-buffer)
+(global-set-key (kbd "s-<up>")  'end-of-buffer)
 
 ;; Set line height
 (setq-default line-spacing 4)
