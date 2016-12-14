@@ -179,6 +179,8 @@
 (global-set-key (kbd "s-<up>")  'beginning-of-buffer)
 (global-set-key (kbd "s-<down>")  'end-of-buffer)
 
+
+
 ;; Set line height
 (setq-default line-spacing 4)
 
@@ -187,6 +189,10 @@
 
 ;; Webmode config
 (require 'web-mode)
+
+(define-key web-mode-map (kbd "M-<up>") 'web-mode-element-beginning)
+(define-key web-mode-map (kbd "M-<down>") 'web-mode-element-end)
+
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
