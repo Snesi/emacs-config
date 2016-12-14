@@ -177,7 +177,7 @@
 (global-set-key (kbd "s-1")  'neotree-toggle)
 (global-set-key (kbd "s-7")  'comment-region)
 (global-set-key (kbd "s-<up>")  'beginning-of-buffer)
-(global-set-key (kbd "s-<up>")  'end-of-buffer)
+(global-set-key (kbd "s-<down>")  'end-of-buffer)
 
 ;; Set line height
 (setq-default line-spacing 4)
