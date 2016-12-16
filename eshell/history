@@ -16,3 +16,6 @@ cd ..
 ls
 cd app/
 npm start
+ls
+cd Vagrant/pythonDev/
+vagrant up && vagrant ssh

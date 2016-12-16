@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ revert-buffer
+ replace-regexp
+ complete-tag
+ eshell
+ magit-push
+ magit-status
  eval-region
- beginning-of-line
- emmet-mode
- neotree
- delete-region
- emacs-lisp-mode
- shell
 )
 
 ;; ----- smex-data -----
@@ -24,7 +24,7 @@
  (dframe-close-frame . 1)
  (package-autoremove . 2)
  (ido-ubiquitous-update-overrides . 2)
- (eval-region . 6)
+ (eval-region . 7)
  (elpy-config . 1)
  (term-terminal-menu . 1)
  (list-processes . 1)
@@ -44,4 +44,12 @@
  (neotree-refresh . 2)
  (emmet-mode . 1)
  (beginning-of-line . 1)
+ (web-mode-element-end . 2)
+ (web-mode-element-beginning . 2)
+ (magit-status . 1)
+ (magit-push . 1)
+ (eshell . 1)
+ (complete-tag . 1)
+ (replace-regexp . 5)
+ (revert-buffer . 4)
 )

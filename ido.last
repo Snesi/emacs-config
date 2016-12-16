@@ -2,17 +2,20 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/david/projects/getfinancing/" . "partner/")
  ("/Users/" . "david/")
  ("/Users/david/projects/freelance/trustbid-react/app/" . "public/")
  ("/Users/david/projects/freelance/" . "trustbid-react/")
  ("/Users/david/projects/freelance/trustbid-react/" . "app/")
- ("/Users/david/projects/" . "freelance/")
+ ("/Users/david/projects/" . "getfinancing/")
  ("/Users/david/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/david/projects/getfinancing/partner/"
  "/Users/david/.emacs.d/"
+ "/Users/david/projects/getfinancing/"
  "/Users/david/projects/freelance/trustbid-react/app/public/"
  "/Users/david/projects/freelance/trustbid-react/app/src/"
  "/Users/david/projects/freelance/trustbid-react/app/"
@@ -21,6 +24,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "Makefile"
  "init.el"
  "login.html"
  "Login.js"
@@ -32,7 +36,17 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/david/.emacs.d/" (22608 16501 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "init.el" "ido.last" "eshell/" "emacs.notes" "elpa/" "customizations/" "backups/" "auto-save-list/" "ac-comphist.dat" ".smex-items" ".recentf" ".git/" "../" "./")
+ ("/Users/david/projects/getfinancing/partner/" (22609 29332 0 0) "zibbyfake/" "www/" "wsgi.py" "views.pyc" "views.py" "vendor/" "utils/" "urls.pyc" "urls.py" "ua_parser/" "tools/" "TODO" "test.sh" "templates/" "static/" "sps_contracts/" "sites/" "settings.pyc" "settings.py" "selenium/" "requirements.txt" "README" "ravenjs/" "raven/" "prefix.sh" "portal/" "partner.sqlite3.template" "partner.sqlite3" "partner/" "models.pyc" "models.py" "middleware.pyc" "middleware.py" "manage.py" "Makefile" "long_usernames/" "logo/" "log/" "locale/" "loan/" "lcinfo/" "lcfake/" "jstemplate/" "interface.pyc" "interface.py" "integration/" "inplace_forms/" "initial_data.json" "fixtures/" "fixcookiedomain/" "featselenium/" "featdjango/" "dynamicsites/" "django_tables2_reports/" "django_tables2/" "django-getfinancing/" "devgrd.sh" "devgel.sh" "devfrf.sh" "decorators.pyc" "decorators.py" "crispy_forms/" "credexstub.pyc" "credexstub.py" "credexapp/" "cookie_killer.pyc" "cookie_free_sessions.pyc" "cookie_free_sessions.py" "context_processors.pyc" "context_processors.py" "conf/" "appsconfig/" "api_proxy/" "api/" "__init__.pyc" "__init__.py" ".vscode/" ".idea/" ".gitmodules" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/david/.emacs.d/" (22609 23019 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "init.el" "ido.last" "eshell/" "emacs.notes" "elpa/" "customizations/" "backups/" "auto-save-list/" "ac-comphist.dat" ".smex-items" ".recentf" ".git/" "../" "./")
+
+ ("/Users/david/projects/getfinancing/partner/portal/" (22607 61079 0 0) "wizard/" "views/" "utils.pyc" "utils.py" "urls.pyc" "urls.py" "timezone.pyc" "timezone.py" "tests_selenium.py" "tests.py" "templatetags/" "templates/" "static/" "models.pyc" "models.py" "migrations/" "layout.pyc" "layout.py" "jstemplates/" "helpers.pyc" "helpers.py" "fields.pyc" "fields.py" "environment_detection.pyc" "environment_detection.py" "decorators.pyc" "decorators.py" "breadcrumbs.pyc" "breadcrumbs.py" "bower_components/" "authentication.pyc" "authentication.py" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
+
+ ("/Users/david/projects/getfinancing/partner/portal/templates/" (22599 52736 0 0) "table_with_summary.html" "table_view.html" "table.html" "sessions/" "services/" "report.html" "portal_base.html" "portal/" "pagination.html" "login.html" "loan/" "live/" "lenders/" "instructions/" "index.html" "graphs/" "details/" "datatables_report.html" "customers/" "conversion.html" "conversion/" "config/" "accounts/" "../" "./")
+
+ ("/Users/david/projects/getfinancing/partner/portal/templates/graphs/" (22609 24925 0 0) "index.html" "filters.html" "analytics.html" "../" "./")
+
+ ("/Users/david/projects/getfinancing/" (22606 48189 0 0) "www.getfinancing.com/" "sps_contracts/" "sps_contract_generation.pyc" "sps_contract_generation.py" "shopify_redirect/" "shopify_db.bak" "server_scripts/" "sandbox/" "range_dict_generator.py" "pol_mariadb_root_pass" "plugins/" "payment_simulator/" "payment_banner/" "partner/" "mongod.conf" "merchant/" "mariadb_root_pass" "manage.py" "june_2016_2.csv" "hi_zibby_september_2016.csv" "herimport query.js" "gf_volusion_script.js" "gf_mysql.bak" "featcredex/" "feat/" "doc/" "community_finance_dict.txt" ".idea/" ".DS_Store" "../" "./")
 
  ("/Users/david/" (22608 18537 0 0) "VPN/" "virtualenv-python2.7.10/" "VirtualBox VMs/" "Vagrant/" "unicorn_wallpaper_by_pinkloveeditions-d6ilgki.jpg" "Snapshots/" "Screen Shot 2016-04-14 at 14.44.23.png" "PycharmProjects/" "Public/" "projects/" "Pictures/" "NetBeansProjects/" "Music/" "Movies/" "mongod.conf" "Library/" "idontknowwhatthisis/" "Google Drive/" "git-completion.bash" "emacs-for-clojure-book1/" "Downloads/" "Documents/" "Desktop/" "credentials.csv" "book1.zip" "bin/" "Applications/" "AndroidStudioProjects/" ".yjp/" ".yarn-cache/" ".yarn/" ".wget-hsts" ".vscode/" ".viminfo" ".vim_mru_files" ".vagrant.d/" ".v8flags.5.1.281.83.david.json" ".Trash/" ".subversion/" ".strongloop/" ".ssh/" ".sqlite_history" ".screenrc" ".python_history" ".pylint.d/" ".PyCharm50/" ".oracle_jre_usage/" ".opam/" ".ocamlinit" ".nuget/" ".npm/" ".node_repl_history" ".node-gyp/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".lein/" ".iterm2_shell_integration.bash" ".iterm2/" ".idlerc/" ".hyperterm_plugins/" ".hyperterm.js" ".httpie/" ".hgignore_global" ".gradle/" ".godot/" ".gnupg/" ".gitkraken/" ".gitignore_global" ".gitconfig" ".ghc/" ".emacs.d/" ".elm/" ".DS_Store" ".dotnet/" ".docker/" ".cups/" ".config/" ".composer/" ".CFUserTextEncoding" ".cache/" ".bashrc.getfinancing" ".bashrc" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".babel.json" ".aws/" ".atom/" ".aspnet/" ".android/" "../" "./")
 
