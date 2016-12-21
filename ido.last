@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/davidgonzalezshannon/projects/" . "financefox/")
+ ("/Users/davidgonzalezshannon/" . "projects/")
  ("/Users/david/projects/getfinancing/" . "partner/")
  ("/Users/" . "david/")
  ("/Users/david/projects/freelance/trustbid-react/app/" . "public/")
@@ -13,6 +15,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/davidgonzalezshannon/projects/financefox/"
  "/Users/david/projects/getfinancing/partner/"
  "/Users/david/.emacs.d/"
  "/Users/david/projects/getfinancing/"
@@ -24,6 +27,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "Gruntfile.js"
  "Makefile"
  "init.el"
  "login.html"
@@ -36,6 +40,14 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/davidgonzalezshannon/projects/financefox/" (22615 56755 0 0) "wdio.remote.js" "wdio.local.js" "spec/" "README.md" "promote.sh" "package.json" "node_modules/" "Gruntfile.js" "docs/" "dist/" "deploy.sh" "CSS-GUIDE.md" "bower.json" "app/" ".yo-rc.json" ".sass-cache/" ".ruby-version" ".ruby-gemset" ".jshintrc" ".gitignore" ".gitattributes" ".git/" ".editorconfig" ".deploy-config-example" ".bowerrc" "../" "./")
+
+ ("/Users/davidgonzalezshannon/projects/" (22615 50731 0 0) "financefox/" "../" "./")
+
+ ("/Users/davidgonzalezshannon/" (22616 1491 0 0) "Public/" "projects/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zlogin" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".rvm/" ".profile" ".nvm/" ".npm/" ".mkshrc" ".local/" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".credentials/" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" "../" "./")
+
+ ("/Users/davidgonzalezshannon/.emacs.d/" (22616 1559 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "init.el" "ido.last" "eshell/" "emacs.notes" "elpa/" "customizations/" "ac-comphist.dat" ".smex-items" ".recentf" ".git/" "../" "./")
+
  ("/Users/david/projects/getfinancing/partner/" (22609 29332 0 0) "zibbyfake/" "www/" "wsgi.py" "views.pyc" "views.py" "vendor/" "utils/" "urls.pyc" "urls.py" "ua_parser/" "tools/" "TODO" "test.sh" "templates/" "static/" "sps_contracts/" "sites/" "settings.pyc" "settings.py" "selenium/" "requirements.txt" "README" "ravenjs/" "raven/" "prefix.sh" "portal/" "partner.sqlite3.template" "partner.sqlite3" "partner/" "models.pyc" "models.py" "middleware.pyc" "middleware.py" "manage.py" "Makefile" "long_usernames/" "logo/" "log/" "locale/" "loan/" "lcinfo/" "lcfake/" "jstemplate/" "interface.pyc" "interface.py" "integration/" "inplace_forms/" "initial_data.json" "fixtures/" "fixcookiedomain/" "featselenium/" "featdjango/" "dynamicsites/" "django_tables2_reports/" "django_tables2/" "django-getfinancing/" "devgrd.sh" "devgel.sh" "devfrf.sh" "decorators.pyc" "decorators.py" "crispy_forms/" "credexstub.pyc" "credexstub.py" "credexapp/" "cookie_killer.pyc" "cookie_free_sessions.pyc" "cookie_free_sessions.py" "context_processors.pyc" "context_processors.py" "conf/" "appsconfig/" "api_proxy/" "api/" "__init__.pyc" "__init__.py" ".vscode/" ".idea/" ".gitmodules" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/david/.emacs.d/" (22609 23019 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "init.el" "ido.last" "eshell/" "emacs.notes" "elpa/" "customizations/" "backups/" "auto-save-list/" "ac-comphist.dat" ".smex-items" ".recentf" ".git/" "../" "./")

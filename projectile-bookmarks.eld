@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/projects/getfinancing/sandbox/" "~/projects/getfinancing/partner/" "~/projects/getfinancing/feat/" "~/projects/freelance/trustbid-react/" "~/projects/getfinancing/featcredex/" "~/projects/getfinancing/merchant/sup-merchant/")
+("~/.emacs.d/" "~/projects/financefox/" "~/projects/getfinancing/sandbox/" "~/projects/getfinancing/partner/" "~/projects/getfinancing/feat/" "~/projects/freelance/trustbid-react/" "~/projects/getfinancing/featcredex/" "~/projects/getfinancing/merchant/sup-merchant/")
